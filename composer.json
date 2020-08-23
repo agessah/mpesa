@@ -1,0 +1,43 @@
+{
+    "name": "agessah/mpesa",
+    "description": "Laravel package for Mpesa APIs",
+	"keywords": ["agessah", "laravel", "mpesa", "api", "c2b", "b2c", "b2b", "stk", "stkpush", "online"],
+    "license": "mit",
+    
+		"authors": [
+        {
+            "name": "agessah",
+            "email": "agesa.usugah@gmail.com"
+        }
+    ],
+    
+	"minimum-stability": "dev",
+    
+    "require": {
+        "php": "^7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+		
+	"autoload": {
+        "psr-4": {
+            "Agessah\\Mpesa\\": "src/"
+        }
+    },
+    
+	"autoload-dev": {
+        "psr-4": {
+            "Agessah\\Mpesa\\Tests\\": "tests/"
+        }
+    },
+		
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Agessah\\Mpesa\\MpesaServiceProvider"
+            ],
+            "aliases": {
+                "Mpesa": "Agessah\\Mpesa\\Facades\\MpesaFacade"
+            }
+        }
+    }
+}

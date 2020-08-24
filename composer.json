@@ -3,8 +3,8 @@
     "description": "Laravel package for Mpesa APIs",
 	"keywords": ["agessah", "laravel", "mpesa", "api", "c2b", "b2c", "b2b", "stk", "stkpush", "online"],
     "license": "mit",
-    
-		"authors": [
+
+    "authors": [
         {
             "name": "agessah",
             "email": "agesa.usugah@gmail.com"
